@@ -1,0 +1,77 @@
+@font-face {
+  font-family : "코펍굵음";
+  src: url("../fonts/KoPubDotumBold_0.ttf");
+}
+
+@font-face {
+  font-family : "코펍중간";
+  src: url("../fonts/KoPubDotumMedium_0.ttf");
+}
+
+@font-face {
+  font-family : "은바탕";
+  src: url("../fonts/UnBatang_0.ttf");
+}
+
+body{margin: 0px;}
+li{font-weight: 900;}
+ol{list-style: none; line-height: 66px; font-weight: bolder; margin-bottom: 0px; padding-left: 100px;}
+a{color:black; text-decoration: none; font-weight: 900;}
+h1{font-size: 100%; font-weight: lighter; margin-block-start:0px;margin-block-end:0px;}
+h2{font-size: 100%; font-weight: lighter; margin-block-start:0px;margin-block-end:0px;}
+.kbmenu{ font-family: "코펍굵음"; font-size: 18px; font-weight: 900;}
+.km{ font-family: "코펍중간";}
+.uhomehead1{ font-family: "은바탕"; font-size: 72px; font-weight: 700; margin-top: 100px; margin-left: 90px; margin-bottom: 30px;}
+.uhomehead2{ font-family: "은바탕"; font-size: 36px; font-weight: 700; margin-left: 100px; color:gray;}
+.uhomename1{ font-family: "은바탕"; font-size: 60px; font-weight: 700; margin-top: 100px; margin-right: 90px; margin-bottom: 10px;}
+.uhomename2{ font-family: "은바탕"; font-size: 28px; font-weight: 900; margin-right: 100px;}
+.uhomename12{ font-family: "은바탕"; font-size: 36px; font-weight: 900;  margin-right: 40px; margin-bottom: 10px;}
+.uhomename121{ font-family: "은바탕"; font-size: 36px; font-weight: 900;}
+.uhomename22{ font-family: "은바탕"; font-size: 24px; font-weight: 900; margin-right: 50px;}
+.kbsub{ font-family: "코펍굵음"; font-size: 26px; font-weight: 900; margin-left: 450px;}
+.kbsub1{ font-family: "코펍굵음"; font-size: 26px; font-weight: 900; margin-left: 450px; line-height: 30px;}
+.kbsub2{ font-family: "코펍굵음"; font-size: 20px; font-weight: 900; margin-left: 450px;line-height: 30px;}
+.umtext{ font-family: "은바탕"; font-size: 17px; font-weight: 700; width: 1000px; margin-left: 630px; line-height: 30px;}
+
+#head {
+  height: 550px;
+}
+#head2 {
+  margin-top: 500px;
+  height: 150px;
+}
+#name {
+  width: 300px;
+  text-align-last: right;
+}
+#menu {
+  display:grid;
+  height: 350px;
+  grid-template-columns: 1fr 0fr;
+}
+#picture {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#picture2 {
+  display:grid;
+  grid-template-columns: 1.65fr 1fr;
+  height: 800px;
+}
+
+#bottom {
+
+}
+
+#bottom2 {
+
+}
+
+#bio1{
+
+}
+
+#bio2{
+
+}
