@@ -143,25 +143,6 @@ h2{
   margin-bottom: 20px;
 }
 
-.artlink{
- margin: 1px;
-}
-
-.artimage{
-
-  height: 300px;
-  width: auto;
-}
-
-.contact{
-  color: white;
-  text-align: center;
-  font-family: '은바탕';
-  font-size: 30px;
-  margin: 60px;
- line-height: 50px;
-}
-
 @media (max-width: 1000px) {
   a {
     text-decoration: none;
@@ -209,8 +190,6 @@ h2{
   }
 
 }
-
-
 
 
 @media (max-width: 650px) {
@@ -261,9 +240,4 @@ h2{
     max-width: 100%;
     height: auto;
     display: block;
-  }
-  .artimage{
-
-    height: 160px;
-    width: auto;
   }
